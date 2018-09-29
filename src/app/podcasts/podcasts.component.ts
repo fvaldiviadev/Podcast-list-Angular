@@ -11,11 +11,17 @@ export class PodcastsComponent implements OnInit {
 
 
   podcasts=PODCASTS;
+  selectedPodcast:Podcast;
 
 
   constructor() { }
 
   ngOnInit() {
+  }
+
+  onSelect(podcast: Podcast): void {
+    this.selectedPodcast = podcast;
+    console.log("Podcast selected: "+podcast.id);
   }
 
 

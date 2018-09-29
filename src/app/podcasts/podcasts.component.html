@@ -1,7 +1,17 @@
 
 <h2>TOP 100 podcast</h2>
+
 <ul class="podcasts">
-    <li *ngFor="let hero of heroes">
+    <li *ngFor="let podcast of podcasts" (click)="onSelect(podcast)"> 
       <span>{{podcast.title}}</span> Author: {{podcast.author}}
     </li>
 </ul>
+
+<div *ngIf="selectedPodcast">
+
+  <h2>{{selectedPodcast.title | uppercase}} Details</h2>
+  <div><span>id: </span>{{selectedPodcast.id}}</div>
+  <div><span>Author: </span>{{selectedPodcast.author}}</div>
+  <div><span>Description: </span>{{selectedPodcast.description}}</div>
+
+</div>
