@@ -3,7 +3,7 @@
 Web App developed in Angular that shows a list of top 100 podcasts from iTunes. 
 I use **HttpClient** for calls to iTunes API.
 
-## Development server
+## How to run
 
 Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
 
