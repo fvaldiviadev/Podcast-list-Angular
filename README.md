@@ -1,6 +1,6 @@
 # Podcasts list with Angular
 
-**Web App** developed in **Angular** that shows a list of top 100 podcasts from iTunes. 
+**Web App** developed in **Angular 6** that shows a list of top 100 podcasts from iTunes. 
 I use **HttpClient** for calls to iTunes API.
 
 ## How to run
